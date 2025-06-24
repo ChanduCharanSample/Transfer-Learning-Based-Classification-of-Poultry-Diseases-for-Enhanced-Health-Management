@@ -8,25 +8,20 @@ This project uses **Transfer Learning (VGG16)** to classify poultry diseases bas
 A **Flask-based web application** is developed to allow farmers, students, and commercial poultry businesses to upload images and receive real-time disease predictions to support early intervention and health management.
 
 
-
-## 📁 Project Structure
-
-```text
-Project Files/
-└── poultry_disease_detection/
-    ├── app.py
-    ├── templates/
-    │   ├── index.html
-    │   ├── predict.html
-    │   ├── about.html
-    │   ├── contact.html
-    │   └── developer.html
-    ├── static/
-    │   └── uploads/
-    ├── healthy_vs_rotten.h5
-    ├── healthy_vs_rotten.keras
-    └── model_files.zip
-
+##  Project Structure
+---text
+        Project Files/
+        └── poultry_disease_detection/
+        ├── app.py
+        ├── templates/
+        │ ├── index.html
+        │ ├── predict.html
+        │ ├── about.html
+        │ ├── contact.html
+        │ └── developer.html
+        ├── static/
+        │ └── uploads/images(to predict the diasease)
+        └── healthy_vs_rotten.h5 (trained model in  Google Drive)
 
 
 ##  Model Details
