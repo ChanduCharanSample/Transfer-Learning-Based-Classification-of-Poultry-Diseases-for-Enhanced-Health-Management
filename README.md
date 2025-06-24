@@ -56,10 +56,9 @@ Run the Flask app:
 
 cd "Project Files/poultry_disease_detection"
 python app.py
-Access the app in your browser:
+Access the app in your browser:http://127.0.0.1:5000/
 
-http://127.0.0.1:5000/
-📷 Features
+Features
 Real-time disease prediction from poultry images
 
 Confidence scores displayed
@@ -70,8 +69,22 @@ Simple and user-friendly interface
 
 Works offline once model is downloaded
 
-📽️ Project Demo
+Project Demo
 Watch Demo Video on LinkedIn(https://www.linkedin.com/in/chandrikaranipothina/)
+
+Output:
+
+![Image](https://github.com/user-attachments/assets/fa7889ae-8de7-441b-9aa7-6d690b13399a)
+
+![Image](https://github.com/user-attachments/assets/f5e98ca7-e48f-4b37-aafb-0b94997d73f3)
+
+![Image](https://github.com/user-attachments/assets/f5b02fd7-c453-4d88-a603-4038862808b1)
+
+![Image](https://github.com/user-attachments/assets/d3bf407d-0512-4e88-b80e-4bfd3d198abd)
+
+![Image](https://github.com/user-attachments/assets/ae612817-7ae8-4a68-bd35-1863022af2c4)
+
+![Image](https://github.com/user-attachments/assets/115415cd-96bd-4754-ba2c-fa474e37fd4a)
 
 
 
