@@ -69,7 +69,7 @@ Works offline once model is downloaded
 Project Demo
 Watch Demo Video on LinkedIn(https://www.linkedin.com/in/chandrikaranipothina/)
 
-Output:
+Output Screenshots:
 
 ![Image](https://github.com/user-attachments/assets/fa7889ae-8de7-441b-9aa7-6d690b13399a)
 
