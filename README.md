@@ -48,28 +48,16 @@ Due to GitHub's file size and bandwidth restrictions, model files are hosted ext
    git clone https://github.com/ChanduCharanSample/Transfer-Learning-Based-Classification-of-Poultry-Diseases-for-Enhanced-Health-Management.git
 Install dependencies:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Download model files from the links above and place them in:
 
-bash
-Copy
-Edit
 Project Files/poultry_disease_detection/
 Run the Flask app:
 
-bash
-Copy
-Edit
 cd "Project Files/poultry_disease_detection"
 python app.py
 Access the app in your browser:
 
-cpp
-Copy
-Edit
 http://127.0.0.1:5000/
 📷 Features
 Real-time disease prediction from poultry images
@@ -84,6 +72,8 @@ Works offline once model is downloaded
 
 📽️ Project Demo
 Watch Demo Video on LinkedIn(https://www.linkedin.com/in/chandrikaranipothina/)
+
+
 
 
 
