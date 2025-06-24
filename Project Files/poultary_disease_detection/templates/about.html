@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About - PoultryDetect</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #28a745;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #00ffff;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 15px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">PoultryDetect</div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/predict">Predict</a>
+      <a href="/contact">Contact</a>
+      <a href="/developer">Developer</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>About the Project</h1>
+    <p>
+      This project focuses on detecting poultry diseases using deep learning and computer vision. Poultry farming is a critical component of the agricultural sector, but it is often affected by infectious diseases that can lead to economic loss and animal suffering.
+    </p>
+
+    <h2>🎯 Objective</h2>
+    <p>
+      To build an AI-powered system that can classify poultry images and predict common diseases using a trained deep learning model.
+    </p>
+
+    <h2>📊 Dataset</h2>
+    <p>
+      The dataset contains categorized poultry images labeled with conditions like:
+    </p>
+    <ul>
+      <li>Coccidiosis</li>
+      <li>Newcastle Disease</li>
+      <li>Salmonella</li>
+      <li>Healthy</li>
+    </ul>
+
+    <h2>🧠 Model Used</h2>
+    <p>
+      The model used for this project is <strong>VGG16</strong>, a pre-trained Convolutional Neural Network (CNN) which was fine-tuned for our dataset.
+    </p>
+
+    <h2>🔍 Features</h2>
+    <ul>
+      <li>Image upload and disease prediction</li>
+      <li>Confidence level with prediction</li>
+      <li>Detailed explanation for each disease</li>
+    </ul>
+
+    <h2>🌐 Deployment</h2>
+    <p>
+      The model is integrated into a Flask web application that allows users to interact via a web interface. Users can upload poultry images and instantly get disease predictions.
+    </p>
+
+    <h2>🚀 Outcome</h2>
+    <p>
+      This tool can be beneficial to farmers, veterinarians, and poultry businesses by enabling early detection and better disease management, thus reducing losses and improving productivity.
+    </p>
+  </div>
+
+  <footer>
+    © 2025 PoultryDetect | Built with ❤️ using Flask & Deep Learning
+  </footer>
+
+</body>
+</html>
